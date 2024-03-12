@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <script src="main.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+  </head>
+  <body>
+    <div class="sky">
+      <!-- We are making divisions, every div.
+      represent a single roundabout balls -->
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+      <div class="star"></div>
+    </div>
+
+    <section class="titlePage">
+      <h1>Hi, I'm <span>Yousef.</span></h1>
+      <h1>I'm a Front-End Web Developer.</h1>
+      <button data-title-button>
+        Get To Know Me
+        <span class="material-symbols-outlined"> arrow_downward </span>
+      </button>
+    </section>
+
+    <section class="about-me">
+      <h1>About Me</h1>
+      <div class="flex-wrapper">
+        <p>
+          I am a Biochemist turned Web Developer. Quite a jump, I know. While I
+          loved studying about genetics in university and contributing to the
+          research of life-saving drugs, recently I have found my passion in
+          creating. Web development became that outlet for me. I also did not
+          expect how fascinating design would be. Each piece of work now serves
+          as a canvas with a story to be told through it. Additionally, I am
+          quite thankful that I took my time at the beginning of my journey to
+          gain solid foundations of HTML, CSS, and JS as it allows me to be as
+          flexible and creative as possible with my work.
+        </p>
+
+        <div class="language-images">
+          <div class="icon-wrapper">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+              alt="HTML"
+            />
+            <caption>
+              HTML
+            </caption>
+          </div>
+
+          <div class="icon-wrapper">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+              alt="CSS"
+            />
+            <caption>
+              CSS
+            </caption>
+          </div>
+
+          <div class="icon-wrapper">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+              alt="JS"
+            />
+            <caption>
+              JS
+            </caption>
+          </div>
+
+          <div class="icon-wrapper">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+              alt="git"
+            />
+            <caption>
+              Git
+            </caption>
+          </div>
+
+          <div class="icon-wrapper">
+            <i class="devicon-github-original"></i>
+            <caption>
+              Github
+            </caption>
+          </div>
+
+          <div class="icon-wrapper">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+              alt="React"
+            />
+            <caption>
+              React
+            </caption>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects">
+      <h1>Projects</h1>
+
+      <section class="project flex-wrapper">
+        <div class="description">
+          <h2>Interactive 3D Portfolio</h2>
+          <p>
+            An alternative website for my portfolio. The homepage has a 3D cube
+            that acts as a nav bar. Each face of the cube can be double clicked
+            to lead to a new page. I have learned a lot about CSS animations and
+            styling elements in 3D from this project.
+            <br />
+            <br />
+            Note: The display on the right is not interactive.
+            <br />
+            <br />
+            Developed using HTML, CSS, and JS.
+          </p>
+          <a
+            href="https://github.com/CCeph/interactive-3d-portfolio"
+            target="_blank"
+            ><button>View Code</button></a
+          >
+          <a
+            href="https://cceph.github.io/interactive-3d-portfolio/"
+            target="_blank"
+            ><button>Live Preview</button></a
+          >
+        </div>
+        <img
+          src="../src/3dPortfolio.jpg"
+          alt="Image of the project"
+        />
+      </section>
+
+      <section class="project flex-wrapper">
+        <img src="../src/cat-wizard.jpg" alt="Image of the project" />
+        <div class="description">
+          <h2>Defeat The Cat Wizard (React)</h2>
+          <p>
+            A web minigame developed with ReactJS. It uses an API to fetch new
+            images each time.
+            <br />
+            <br />
+            Developed using HTML, CSS, and ReactJS. Hosted with Netlify.
+          </p>
+          <a
+            href="https://github.com/CCeph/defeat-the-cat-wizard"
+            target="_blank"
+            ><button>View Code</button></a
+          >
+          <a href="https://defeat-the-cat-wizard.netlify.app/" target="_blank"
+            ><button>Live Preview</button></a
+          >
+        </div>
+      </section>
+
+      <section class="project flex-wrapper">
+        <div class="description">
+          <h2>Battleships</h2>
+          <p>
+            A web minigame of Battleships. It was my first unit tested project,
+            and the first game I develop. Keeping my code well organized since
+            the beginning helped a lot in dealing with the many interconnected
+            parts of the game.
+            <br />
+            <br />
+            Developed using HTML, CSS, and JS.
+          </p>
+          <a href="https://github.com/CCeph/battleships" target="_blank"
+            ><button>View Code</button></a
+          >
+          <a href="https://cceph.github.io/battleships/" target="_blank"
+            ><button>Live Preview</button></a
+          >
+        </div>
+        <img src="../src/battleship.png" alt="Image of the project" />
+      </section>
+    </section>
+  </body>
+</html>
