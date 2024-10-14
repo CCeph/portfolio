@@ -186,6 +186,14 @@ button:active {
   box-shadow: var(--clickedRedButtonShadow);
 }
 
+.grid-end-center {
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
 @media (max-width: 800px) {
   .about-me .flex-wrapper,
   .projects .flex-wrapper {
